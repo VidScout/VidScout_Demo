@@ -1,0 +1,12 @@
+# Лёгкий набор для ревью (демо без тяжёлых зависимостей)
+numpy
+pillow
+tqdm
+opencv-python-headless
+# Ниже — опционально, добавишь позже, если понадобится настоящий пайплайн
+# faiss-cpu==1.8.0.post2 ; platform_system!="Darwin"
+# transformers
+# git+https://github.com/openai/CLIP.git
+# torch
+# torchvision
+# torchaudio

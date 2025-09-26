@@ -1,0 +1,30 @@
+
+# macOS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node/web
+node_modules/
+dist/
+build/
+
+# Данные/артефакты (тяжёлое/генерируемое)
+youtube_downloads/
+vidscout-db/
+*.mp4
+*.webm
+*.mkv
+*.jsonl
+*.index
+*.npy
+*.pt
+*.pth

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>VidScout — Frame Found</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-block">
+            <img src="assets/logo-white.svg" class="logo" id="logo">
+            <div class="logo-text">VID SCOUT</div>
+        </div>
+        <div class="menu">
+            <button>СКАЧАТЬ ПРИЛОЖЕНИЕ</button>
+            <button>ПОСЛЕДНИЕ НАЙДЕННЫЕ</button>
+            <button>ТОП ПОИСКА</button>
+        </div>
+        <div class="login-block">
+            <button>ВОЙТИ/PREMIUM</button>
+            <div class="lang">ЯЗЫК - РУС /EN/CH/TR</div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="upload-area" id="upload-area">
+            <label for="file-upload" class="upload-label">
+                ЗАГРУЗИТЬ КАДР...
+                <img src="assets/logo-white.svg" class="upload-logo" id="pulse-logo">
+            </label>
+            <input type="file" id="file-upload" accept="image/*" hidden>
+        </div>
+
+        <!-- Блок с результатом — один, отдельно -->
+        <div id="resultContainer" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
